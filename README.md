@@ -21,10 +21,10 @@ Usage:
 remindws [user]@[host-or-ip]:[remote-dir]
 ```
 
-The content of your current working directory (except files excluded in `.gitignore` file) will be synced to the remote directory onn provided host.
-
-Usage example:
+Example:
 
 ```bash
 syncws user@127.0.0.1:/tmp/mydir
 ```
+
+The content of your current working directory (except files excluded in `.gitignore` file) will be synced to the directory on provided host.
