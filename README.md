@@ -10,9 +10,18 @@ A command line util to live-sync your local directory to remote server
 
 ## Usage
 
-1. Make sure your working directory is a Git repository (the tool uses `.gitignore` file to determine which files should be synced).
-1. Make sure you have set up SSH keys to the remote server, so that you can login via SSH without a password (see the instruction [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)).
-1. Use the script: `remindws [user]@[host-or-ip]:[remote-dir]`. The content of your working directory (except files excluded in `.gitignore` file) will be synced to the directory in provided host.
+Prerequisites:
+
+- Make sure your working directory is a Git repository (the tool uses `.gitignore` file to determine which files should be synced).
+- Make sure you have set up SSH keys to the remote server, so that you can login via SSH without a password (see the instruction [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)).
+
+Usage: 
+
+```bash
+remindws [user]@[host-or-ip]:[remote-dir]
+```
+
+The content of your current working directory (except files excluded in `.gitignore` file) will be synced to the remote directory onn provided host.
 
 Usage example:
 
