@@ -18,7 +18,7 @@ Prerequisites:
 Usage: 
 
 ```bash
-remindws [user]@[host-or-ip]:[remote-dir]
+syncws [user]@[host-or-ip]:[remote-dir]
 ```
 
 Example:
