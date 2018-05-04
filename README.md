@@ -6,7 +6,7 @@ A command line util to live-sync your local directory to remote server
 
 1. Make sure you have the following utils installed: `git`, `rsync`, `fswatch`.
 1. Add execution permissions to the script file: `chmod +x ./syncws.sh`
-1. Copy `syncws.sh` to your path directory, for example `cp ./syncws.sh /usr/bin/syncws`
+1. Copy `syncws.sh` to your path directory, for example `cp ./syncws.sh /usr/local/bin/syncws`
 
 ## Usage
 
