@@ -13,7 +13,7 @@ function syncFile {
 }
 
 function syncOnce {
-  rsync -rzv --exclude='.git' --filter="dir-merge,- .gitignore" ./ "$target"
+  rsync -rzv --delete --exclude='.git' --filter="dir-merge,- .gitignore" ./ "$target"
 }
 
 function startLiveSync {
